@@ -1,7 +1,11 @@
 EverCoow
 ========
 
-A customised Evernote converter to Google docs and in the future Mail chimp.
+A customised Evernote converter to Google docs and Mail chimp.
+
+Ruby version has come further but I noticed Rexml manipulates the text I put into Xml (adds and removes line breaks) and I got tired of no compiler which forces all but syntax bugs to runtime and wasting time on debugging instead of progressing the project.  Then add a clunky debugger to this.
+
+So I am rewriting it to dotnet.
 
 
 Here is a short explanation of what it is.
