@@ -1,3 +1,10 @@
 obj
 bin
+
 *.suo
+*.html
+*.enex
+
+EverCoow.Net/.DS_Store
+
+EverCoow.Net/EverCoow/EverCoow.v11.suo
