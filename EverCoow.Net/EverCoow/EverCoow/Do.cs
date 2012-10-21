@@ -10,8 +10,18 @@ namespace EverCoow
 {
     public class Do
     {
+        /// <summary>This method takes data for an email template, names and files for the chapters and path and file for the resulting output.
+        /// It merges the template with the chapters and writes the output file.
+        /// </summary>
+        /// <param name="templatePath">Path to the template</param>
+        /// <param name="templateName">Name of the template file.</param>
+        /// <param name="enexhapterPath">Path to the .enex chapter files.</param>
+        /// <param name="enexchapterList">List of chapter names and their respective file names.</param>
+        /// <param name="outPath">Path of the resulting output file.</param>
+        /// <param name="outFilename">The name of the resulting output file.</param>
         public void Convert(string templatePath, string templateName,
-            string exechapterPath, List<EnexChapter> enexchapterList)
+            string enexhapterPath, List<EnexChapter> enexchapterList, 
+            string outPath, string outFilename)
         {
             var emailTemplate = ReadTextOfFile(templatePath, templateName);
             var template = Split(emailTemplate);
@@ -32,7 +42,7 @@ namespace EverCoow
                 sb.Append(chapter.ChapterName);
                 sb.Append(template.ArticleHeader.After);
 
-                var articleList = enex.Read(Path.Combine(exechapterPath, chapter.FileName));
+                var articleList = enex.Read(Path.Combine(enexhapterPath, chapter.FileName));
                 foreach (var article in articleList)
                 {
                     sb.Append(template.Article.Before);

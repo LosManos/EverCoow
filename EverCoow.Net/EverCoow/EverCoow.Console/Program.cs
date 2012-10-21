@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
 namespace EverCoow.Console
 {
@@ -20,8 +15,10 @@ namespace EverCoow.Console
             };
             const string path = @"\\psf\Home\Documents\Development\Projects\EverCoow\EverCoow.Net\EverCoow\Data";
 
+            var outPathFile = Path.Combine(path, "letter.html");
+
             var evercoowDo = new EverCoow.Do();
-            evercoowDo.Convert(TemplatePath, "template.html", path, chapterList);
+            evercoowDo.Convert(TemplatePath, "template.html", path, chapterList, path, "email.html");
 
             System.Console.WriteLine("Conversion finished.");
             System.Console.Write("Press any key...");
