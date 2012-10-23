@@ -15,12 +15,15 @@ namespace EverCoow
         /// </summary>
         /// <param name="templatePath">Path to the template</param>
         /// <param name="templateName">Name of the template file.</param>
-        /// <param name="enexhapterPath">Path to the .enex chapter files.</param>
-        /// <param name="enexchapterList">List of chapter names and their respective file names.</param>
+        /// <param name="enexLeaderPath"></param>
+        /// <param name="enexLeaderFile"></param>
+        /// <param name="enexChapterPath">Path to the .enex chapter files.</param>
+        /// <param name="enexChapterList">List of chapter names and their respective file names.</param>
         /// <param name="outPath">Path of the resulting output file.</param>
         /// <param name="outFilename">The name of the resulting output file.</param>
         public void Convert(string templatePath, string templateName,
-            string enexhapterPath, List<EnexChapter> enexchapterList, 
+            string enexLeaderPath, string enexLeaderFile, 
+            string enexChapterPath, List<EnexChapter> enexChapterList, 
             string outPath, string outFilename)
         {
             var emailTemplate = ReadTextOfFile(templatePath, templateName);
@@ -30,29 +33,56 @@ namespace EverCoow
 
             sb.Append(template.Before);
             sb.Append(template.Leader.Before);
-            sb.Append("NyLedare");
+            if (null == enexLeaderPath)
+            {
+                //  We have no info about the Leader so keep the template Leader.
+                sb.Append(template.Leader.Placeholder);
+            }
+            else
+            {
+                sb.Append("NyLedare");
+                throw new NotImplementedException("TBA");
+            }
             sb.Append(template.Leader.After);
 
             sb.Append(template.BetweenLeaderAndFirstChapter);
 
-            var enex = new EverCoow.Enex();
-            foreach (var chapter in enexchapterList)
+            if (null == enexChapterPath)
             {
+                //  We have no info about the Chapters and Articles so keep the template data.
+                sb.Append(template.ChapterHeader.Before);
+                sb.Append(template.ChapterHeader.Placeholder);
+                sb.Append(template.ChapterHeader.After);
                 sb.Append(template.ArticleHeader.Before);
-                sb.Append(chapter.ChapterName);
+                sb.Append(template.ArticleHeader.Placeholder);
                 sb.Append(template.ArticleHeader.After);
-
-                var articleList = enex.Read(Path.Combine(enexhapterPath, chapter.FileName));
-                foreach (var article in articleList)
+                sb.Append(template.Article.Before);
+                sb.Append(template.Article.Placeholder);
+                sb.Append(template.Article.After);
+            }
+            else
+            {
+                var enex = new EverCoow.Enex();
+                foreach (var chapter in enexChapterList)
                 {
-                    sb.Append(template.Article.Before);
-                    sb.Append(article.Title);
-                    sb.Append(article.CdataContent.MailText);
-                    sb.Append(template.Article.After);
+                    sb.Append(template.ArticleHeader.Before);
+                    sb.Append(chapter.ChapterName);
+                    sb.Append(template.ArticleHeader.After);
+
+                    var articleList = enex.Read(Path.Combine(enexChapterPath, chapter.FileName));
+                    foreach (var article in articleList)
+                    {
+                        sb.Append(template.Article.Before);
+                        sb.Append(article.Title);
+                        sb.Append(article.CdataContent.MailText);
+                        sb.Append(template.Article.After);
+                    }
                 }
             }
 
             sb.Append(template.After);
+
+            WriteFile(outPath, outFilename, sb);
         }
 
         private static TemplateStruct Split(string emailTemplate)
@@ -99,6 +129,11 @@ namespace EverCoow
             {
                 return sr.ReadToEnd();
             }
+        }
+
+        private void WriteFile(string path, string filename, StringBuilder sb)
+        {
+            File.WriteAllText( Path.Combine( path, filename), sb.ToString() );
         }
 
     }

@@ -18,7 +18,7 @@ namespace EverCoow.Console
             var outPathFile = Path.Combine(path, "letter.html");
 
             var evercoowDo = new EverCoow.Do();
-            evercoowDo.Convert(TemplatePath, "template.html", path, chapterList, path, "email.html");
+            evercoowDo.Convert(TemplatePath, "template.html", path, "", "", chapterList, path, "email.html");
 
             System.Console.WriteLine("Conversion finished.");
             System.Console.Write("Press any key...");
