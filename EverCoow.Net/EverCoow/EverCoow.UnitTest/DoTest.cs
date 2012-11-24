@@ -28,7 +28,7 @@ namespace EverCoow.UnitTest
         public void SimpleCopyTemplateTest()
         {
             const string InFilename = "SimplifiedTemplate.Data.html";
-            const string OutFilename = "CopySimpleTemplateTest.html";
+            const string OutFilename = "SimpleCopyTemplateTest.html";
 
             var testee = new EverCoow.Do();
             testee.Convert(GetDataPath(), InFilename,
@@ -38,6 +38,23 @@ namespace EverCoow.UnitTest
             var originalTemplate = ReadTextOfFile(GetDataPath(), InFilename);
             var createdEmail = ReadTextOfFile(GetDataPath(), OutFilename);
             Assert.AreEqual(originalTemplate, createdEmail, "Copying a template should render an equal result.");
+        }
+
+        [TestMethod]
+        public void ReplacePlaceholdersWithIdenticalData()
+        {
+            const string TemplateFilename = "Template.Data.html";
+            const string LeaderFilename = "LeaderAsPlaceholder.enex";
+            const string ArticleFilename = "ArticleAsPlaceholder.enex";
+            const string OutFileName = "ReplacePlaceholdersWithIdenticalData.out.html";
+
+            var testee = new EverCoow.Do();
+            testee.Convert(GetDataPath(), TemplateFilename,
+                GetDataPath(), LeaderFilename,
+                GetDataPath(), new List<EnexChapter>() { EnexChapter.Create("{{ChapterHeader}}", ArticleFilename) },
+                GetDataPath(), OutFileName);
+
+            Assert.AreEqual(ReadTextOfFile( GetDataPath(), TemplateFilename), ReadTextOfFile(GetDataPath(), OutFileName), "Replacing place holders with the same content should render an equal result.");
         }
 
         private static string GetDataPath()

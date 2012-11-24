@@ -3,7 +3,7 @@ bin
 
 *.suo
 *.html
-*.enex
+.enex
 
 EverCoow.Net/EverCoow/EverCoow.v11.suo
 

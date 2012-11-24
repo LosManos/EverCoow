@@ -13,13 +13,7 @@ namespace EverCoow
         {
             get
             {
-                //var ret = new List<string>();
-                //foreach (XmlNode node in InnerXml.SelectNodes("/en-note/div"))
-                //{
-                //    ret.Add(node.InnerXml);
-                //}
-                //return string.Empty;
-                return InnerXml.InnerXml;
+                return this.InnerXml.SelectSingleNode("en-note").InnerText.Trim('\n') ;
             }
         }
 

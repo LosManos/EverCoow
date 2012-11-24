@@ -45,6 +45,7 @@
     <Compile Include="Do.cs" />
     <Compile Include="Enex.cs" />
     <Compile Include="EnexChapter.cs" />
+    <Compile Include="Extensions\SplitAtExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TemplateStruct.cs" />
   </ItemGroup>
