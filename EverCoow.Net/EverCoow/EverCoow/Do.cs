@@ -12,6 +12,14 @@ namespace EverCoow
 {
     public class Do
     {
+        public struct Placeholders
+        {
+            public string Leader; //  {{Leader}}
+            public string ChapterHeader; //   {{ChapterHeader}}
+            public string ArticleHeader;  //  {{ArticleHeader}}
+            public string ArticleBody;    //  {{ArticleBody}}
+        }
+
         /// <summary>This method takes data for an email template, names and files for the chapters and path and file for the resulting output.
         /// It merges the template with the chapters and writes the output file.
         /// </summary>
@@ -21,16 +29,18 @@ namespace EverCoow
         /// <param name="enexLeaderFilename"></param>
         /// <param name="enexChapterPath">Path to the .enex chapter files.</param>
         /// <param name="enexChapterList">List of chapter names and their respective file names.</param>
+        /// <param name="placeholders">The placeholders we use for replacing text.</param>
         /// <param name="outPath">Path of the resulting output file.</param>
         /// <param name="outFilename">The name of the resulting output file.</param>
         public void Convert(
             string templatePath, string templateFilename,
             string enexLeaderPath, string enexLeaderFilename, 
             string enexChapterPath, List<EnexChapter> enexChapterList, 
+            Placeholders placeholders, 
             string outPath, string outFilename)
         {
             var emailTemplate = ReadTextOfFile(templatePath, templateFilename);
-            var template = Split(emailTemplate);
+            var template = Split(emailTemplate, placeholders);
 
             var sb = new StringBuilder();
 
@@ -76,7 +86,7 @@ namespace EverCoow
             WriteFile(outPath, outFilename, sb);
         }
 
-        private static TemplateStruct Split(string emailTemplate)
+        private static TemplateStruct Split(string emailTemplate, Placeholders placeholders)
         {
             //  Split template into Before-Leader and Leader-and-after.
             var tuple = emailTemplate.SplitAt(@"<tr mc:repeatable>");
@@ -101,9 +111,9 @@ namespace EverCoow
             var ret = new TemplateStruct()
             {
                 Before = beforeLeader,
-                Leader = TemplateStruct.PlaceholderStruct.Create( leader, "{{Leader}}"), 
-                ChapterHeader = TemplateStruct.PlaceholderStruct.Create( chapterHeader, "{{ChapterHeader}}"), 
-                Article = TemplateStruct.PlaceholderStruct2.Create(article, "{{ArticleHeader}}", "{{ArticleBody}}"),
+                Leader = TemplateStruct.PlaceholderStruct.Create( leader, placeholders.Leader), 
+                ChapterHeader = TemplateStruct.PlaceholderStruct.Create( chapterHeader, placeholders.ChapterHeader), 
+                Article = TemplateStruct.PlaceholderStruct2.Create(article, placeholders.ArticleHeader, placeholders.ArticleBody),
                 After = footer
             };
 

@@ -6,6 +6,15 @@ namespace EverCoow.Console
     class Program
     {
         private const string TemplatePath = @"Z:\Documents\Development\Projects\EverCoow\EverCoow.Net\EverCoow\Data";
+
+        private static readonly EverCoow.Do.Placeholders Placeholders = new Do.Placeholders()
+        {
+            Leader = "{{Leader}}",
+            ChapterHeader = "{{ChapterHeader}}",
+            ArticleHeader = "{{ArticleHeader}}",
+            ArticleBody = "{{ArticleBody}}"
+        };
+        
         static void Main(string[] args)
         {
             System.Console.WriteLine("Converting...");
@@ -18,7 +27,7 @@ namespace EverCoow.Console
             var outPathFile = Path.Combine(path, "letter.html");
 
             var evercoowDo = new EverCoow.Do();
-            evercoowDo.Convert(TemplatePath, "template.html", path, "", "", chapterList, path, "email.html");
+            evercoowDo.Convert(TemplatePath, "template.html", path, "", "", chapterList, Placeholders, path, "email.html");
 
             System.Console.WriteLine("Conversion finished.");
             System.Console.Write("Press any key...");

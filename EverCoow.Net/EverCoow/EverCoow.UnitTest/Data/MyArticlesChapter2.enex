@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export2.dtd">
+<en-export export-date="20121124T220946Z" application="Evernote" version="Evernote Mac 3.3.1 (300245)">
+<note><title>My first article</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+This article is in another chapter.  I s'p's.
+</en-note>
+]]></content><created>20121124T215401Z</created><updated>20121124T215443Z</updated><tag>Ccc</tag><note-attributes/></note>
+<note><title>Cows are cool</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+Eating cows is like
+<div>eating a port of your</div>
+<div>soul.</div>
+<div><br/></div>
+<div>- http://example.com/     &lt;- with comment</div>
+</en-note>
+]]></content><created>20121124T213824Z</created><updated>20121124T215358Z</updated><tag>Ccc</tag><note-attributes/></note>
+</en-export>

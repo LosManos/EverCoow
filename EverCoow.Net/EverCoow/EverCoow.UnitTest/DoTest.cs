@@ -8,6 +8,13 @@ namespace EverCoow.UnitTest
     [TestClass]
     public class DoTest
     {
+        private readonly EverCoow.Do.Placeholders placeholders = new Do.Placeholders(){
+            Leader=  "{{Leader}}", 
+            ChapterHeader=   "{{ChapterHeader}}", 
+            ArticleHeader ="{{ArticleHeader}}", 
+            ArticleBody =  "{{ArticleBody}}"
+    };
+
         [TestMethod]
         public void CopyTemplateTest()
         {
@@ -17,6 +24,7 @@ namespace EverCoow.UnitTest
             var testee = new EverCoow.Do();
             testee.Convert(GetDataPath(), InFilename, 
                 null, null, null, null,
+                placeholders, 
                 GetDataPath(), OutFilename);
 
             var originalTemplate = ReadTextOfFile(GetDataPath(), InFilename);
@@ -33,6 +41,7 @@ namespace EverCoow.UnitTest
             var testee = new EverCoow.Do();
             testee.Convert(GetDataPath(), InFilename,
                 null, null, null, null,
+                placeholders,
                 GetDataPath(), OutFilename);
 
             var originalTemplate = ReadTextOfFile(GetDataPath(), InFilename);
@@ -52,9 +61,33 @@ namespace EverCoow.UnitTest
             testee.Convert(GetDataPath(), TemplateFilename,
                 GetDataPath(), LeaderFilename,
                 GetDataPath(), new List<EnexChapter>() { EnexChapter.Create("{{ChapterHeader}}", ArticleFilename) },
+                placeholders,
                 GetDataPath(), OutFileName);
 
             Assert.AreEqual(ReadTextOfFile( GetDataPath(), TemplateFilename), ReadTextOfFile(GetDataPath(), OutFileName), "Replacing place holders with the same content should render an equal result.");
+        }
+
+        [TestMethod]
+        public void ProperMerge()
+        {
+            const string TemplateFilename = "Template.Data.html";
+            const string LeaderFilename = "MyFirstLeader.enex";
+            const string Chapter1Name = "My first chapter";
+            const string Chapter1ArticlesFilename = "MyFirstArticleChapter1.enex";
+            const string Chapter2Name = "My second chapter";
+            const string Chapter2ArticlesFilename = "MyArticlesChapter2.enex";
+            const string OutFileName = "ProperMerge.out.html";
+
+            var testeen = new EverCoow.Do();
+            testeen.Convert( GetDataPath(), TemplateFilename, 
+                GetDataPath(), LeaderFilename, 
+                GetDataPath(), new List<EnexChapter>(){
+                    EnexChapter.Create( Chapter1Name, Chapter1ArticlesFilename ), 
+                    EnexChapter.Create( Chapter2Name, Chapter2ArticlesFilename )},
+                placeholders,
+                GetDataPath(), OutFileName);
+
+            Assert.Inconclusive("Yet not implemented.  This should be a full fledged test.");
         }
 
         private static string GetDataPath()
@@ -69,6 +102,11 @@ namespace EverCoow.UnitTest
             return theDirectory;
         }
 
+        /// <summary>This method reads a text document and returns its contents as a string.
+        /// </summary>
+        /// <param name="path"></param>
+        /// <param name="filename"></param>
+        /// <returns></returns>
         private static string ReadTextOfFile(string path, string filename)
         {
             using (var sr = File.OpenText(Path.Combine(path, filename)))
