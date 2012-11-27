@@ -12,6 +12,9 @@ namespace EverCoow
 {
     public class Do
     {
+        /// <summary>These are the placeholder strings.
+        /// Placeholders are the texts to replace.
+        /// </summary>
         public struct Placeholders
         {
             public string Leader; //  {{Leader}}
@@ -19,6 +22,23 @@ namespace EverCoow
             public string ArticleHeader;  //  {{ArticleHeader}}
             public string ArticleBody;    //  {{ArticleBody}}
         }
+
+        /// <summary>This getter returns the default placeholders.
+        /// </summary>
+        public static EverCoow.Do.Placeholders DefaultPlaceholders
+        {
+            get
+            {
+                return new Do.Placeholders()
+            {
+                Leader = "{{Leader}}",
+                ChapterHeader = "{{ChapterHeader}}",
+                ArticleHeader = "{{ArticleHeader}}",
+                ArticleBody = "{{ArticleBody}}"
+            };
+            }
+        }
+
 
         /// <summary>This method takes data for an email template, names and files for the chapters and path and file for the resulting output.
         /// It merges the template with the chapters and writes the output file.
@@ -29,7 +49,7 @@ namespace EverCoow
         /// <param name="enexLeaderFilename"></param>
         /// <param name="enexChapterPath">Path to the .enex chapter files.</param>
         /// <param name="enexChapterList">List of chapter names and their respective file names.</param>
-        /// <param name="placeholders">The placeholders we use for replacing text.</param>
+        /// <param name="placeholders">The placeholders we use for replacing text.  Typically Do.DefaultPlaceholders.</param>
         /// <param name="outPath">Path of the resulting output file.</param>
         /// <param name="outFilename">The name of the resulting output file.</param>
         public void Convert(
@@ -173,6 +193,11 @@ namespace EverCoow
         //    };
         //}
 
+        /// <summary>This method reads a text document and returns its contents as a string.
+        /// </summary>
+        /// <param name="path"></param>
+        /// <param name="filename"></param>
+        /// <returns></returns>
         private static string ReadTextOfFile(string path, string filename)
         {
             using (var sr = File.OpenText(Path.Combine(path, filename)))
@@ -181,6 +206,11 @@ namespace EverCoow
             }
         }
 
+        /// <summary>This method writes the strinbuilder parameter as a file.
+        /// </summary>
+        /// <param name="path"></param>
+        /// <param name="filename"></param>
+        /// <param name="sb"></param>
         private void WriteFile(string path, string filename, StringBuilder sb)
         {
             File.WriteAllText( Path.Combine( path, filename), sb.ToString() );

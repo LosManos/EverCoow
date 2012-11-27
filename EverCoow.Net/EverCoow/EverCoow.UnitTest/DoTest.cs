@@ -8,12 +8,12 @@ namespace EverCoow.UnitTest
     [TestClass]
     public class DoTest
     {
-        private readonly EverCoow.Do.Placeholders placeholders = new Do.Placeholders(){
-            Leader=  "{{Leader}}", 
-            ChapterHeader=   "{{ChapterHeader}}", 
-            ArticleHeader ="{{ArticleHeader}}", 
-            ArticleBody =  "{{ArticleBody}}"
-    };
+    //    private readonly EverCoow.Do.Placeholders placeholders = new Do.Placeholders(){
+    //        Leader=  "{{Leader}}", 
+    //        ChapterHeader=   "{{ChapterHeader}}", 
+    //        ArticleHeader ="{{ArticleHeader}}", 
+    //        ArticleBody =  "{{ArticleBody}}"
+    //};
 
         [TestMethod]
         public void CopyTemplateTest()
@@ -24,7 +24,7 @@ namespace EverCoow.UnitTest
             var testee = new EverCoow.Do();
             testee.Convert(GetDataPath(), InFilename, 
                 null, null, null, null,
-                placeholders, 
+                Do.DefaultPlaceholders, 
                 GetDataPath(), OutFilename);
 
             var originalTemplate = ReadTextOfFile(GetDataPath(), InFilename);
@@ -41,7 +41,7 @@ namespace EverCoow.UnitTest
             var testee = new EverCoow.Do();
             testee.Convert(GetDataPath(), InFilename,
                 null, null, null, null,
-                placeholders,
+                Do.DefaultPlaceholders,
                 GetDataPath(), OutFilename);
 
             var originalTemplate = ReadTextOfFile(GetDataPath(), InFilename);
@@ -61,7 +61,7 @@ namespace EverCoow.UnitTest
             testee.Convert(GetDataPath(), TemplateFilename,
                 GetDataPath(), LeaderFilename,
                 GetDataPath(), new List<EnexChapter>() { EnexChapter.Create("{{ChapterHeader}}", ArticleFilename) },
-                placeholders,
+                Do.DefaultPlaceholders,
                 GetDataPath(), OutFileName);
 
             Assert.AreEqual(ReadTextOfFile( GetDataPath(), TemplateFilename), ReadTextOfFile(GetDataPath(), OutFileName), "Replacing place holders with the same content should render an equal result.");
@@ -78,13 +78,13 @@ namespace EverCoow.UnitTest
             const string Chapter2ArticlesFilename = "MyArticlesChapter2.enex";
             const string OutFileName = "ProperMerge.out.html";
 
-            var testeen = new EverCoow.Do();
-            testeen.Convert( GetDataPath(), TemplateFilename, 
+            var testee = new EverCoow.Do();
+            testee.Convert( GetDataPath(), TemplateFilename, 
                 GetDataPath(), LeaderFilename, 
                 GetDataPath(), new List<EnexChapter>(){
                     EnexChapter.Create( Chapter1Name, Chapter1ArticlesFilename ), 
                     EnexChapter.Create( Chapter2Name, Chapter2ArticlesFilename )},
-                placeholders,
+                    Do.DefaultPlaceholders,
                 GetDataPath(), OutFileName);
 
             Assert.Inconclusive("Yet not implemented.  This should be a full fledged test.");

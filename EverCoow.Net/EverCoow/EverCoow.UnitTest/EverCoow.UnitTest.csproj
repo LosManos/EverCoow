@@ -36,6 +36,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <Choose>
     <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
@@ -51,6 +52,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="DoTest.cs" />
+    <Compile Include="MarkDownTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -59,8 +61,18 @@
       <Name>EverCoow</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Data\" />
+    <None Include="Data\ MyArticlesChapter2.enex" />
+    <None Include="Data\ArticleAsPlaceholder.enex" />
+    <None Include="Data\LeaderAsPlaceholder.enex" />
+    <None Include="Data\MyArticlesChapter2.enex" />
+    <None Include="Data\MyFirstArticleChapter1.enex" />
+    <None Include="Data\MyFirstLeader.enex" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\SimplifiedTemplate.Data.html" />
+    <Content Include="Data\Template.Data.html" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

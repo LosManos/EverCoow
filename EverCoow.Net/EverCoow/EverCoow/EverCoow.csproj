@@ -41,11 +41,14 @@
   <ItemGroup>
     <Compile Include="Article.cs" />
     <Compile Include="Cdata.cs" />
+    <Compile Include="Constants.cs" />
     <Compile Include="Content.cs" />
     <Compile Include="Do.cs" />
     <Compile Include="Enex.cs" />
     <Compile Include="EnexChapter.cs" />
     <Compile Include="Extensions\SplitAtExtension.cs" />
+    <Compile Include="IMarkDownConverter.cs" />
+    <Compile Include="MarkDown.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TemplateStruct.cs" />
   </ItemGroup>
