@@ -34,7 +34,7 @@ namespace EverCoow.UnitTest
             var enexDoc = new XmlDocument();
             enexDoc.LoadXml(xmlString);
 
-            var md = new MarkDown();
+            var md = new MarkDownConverter();
             var res = md.Convert(enexDoc);
 
             Assert.AreEqual(expRes, res);
@@ -43,7 +43,7 @@ namespace EverCoow.UnitTest
         [TestMethod]
         public void ConvertLink()
         {
-            IMarkDownUnitTest testee = new MarkDown();
+            IMarkDownUnitTest testee = new MarkDownConverter();
             var res = testee.ConvertLink("- http://example.com");
             Assert.AreEqual("<a href=\"http://example.com\">http://example.com</a>", res);
 

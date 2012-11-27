@@ -19,7 +19,7 @@ namespace EverCoow
     ///     <div>- http://example.com/     &lt;- with comment</div>
     ///     </en-note>
     /// </summary>
-    public class MarkDown : IMarkDownConverter, IMarkDownUnitTest
+    public class MarkDownConverter : IMarkDownConverter, IMarkDownUnitTest
     {
         /// <summary>This method converts an enex xml doc formatted approx as in the xml comment
         /// to a Markdown.  A simplified Markdown.

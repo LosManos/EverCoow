@@ -25,6 +25,7 @@ namespace EverCoow.UnitTest
             testee.Convert(GetDataPath(), InFilename, 
                 null, null, null, null,
                 Do.DefaultPlaceholders, 
+                new MarkDownConverter(), 
                 GetDataPath(), OutFilename);
 
             var originalTemplate = ReadTextOfFile(GetDataPath(), InFilename);
@@ -42,6 +43,7 @@ namespace EverCoow.UnitTest
             testee.Convert(GetDataPath(), InFilename,
                 null, null, null, null,
                 Do.DefaultPlaceholders,
+                new MarkDownConverter(), 
                 GetDataPath(), OutFilename);
 
             var originalTemplate = ReadTextOfFile(GetDataPath(), InFilename);
@@ -62,6 +64,7 @@ namespace EverCoow.UnitTest
                 GetDataPath(), LeaderFilename,
                 GetDataPath(), new List<EnexChapter>() { EnexChapter.Create("{{ChapterHeader}}", ArticleFilename) },
                 Do.DefaultPlaceholders,
+                new MarkDownConverter(), 
                 GetDataPath(), OutFileName);
 
             Assert.AreEqual(ReadTextOfFile( GetDataPath(), TemplateFilename), ReadTextOfFile(GetDataPath(), OutFileName), "Replacing place holders with the same content should render an equal result.");
@@ -85,6 +88,7 @@ namespace EverCoow.UnitTest
                     EnexChapter.Create( Chapter1Name, Chapter1ArticlesFilename ), 
                     EnexChapter.Create( Chapter2Name, Chapter2ArticlesFilename )},
                     Do.DefaultPlaceholders,
+                    new MarkDownConverter(), 
                 GetDataPath(), OutFileName);
 
             Assert.Inconclusive("Yet not implemented.  This should be a full fledged test.");

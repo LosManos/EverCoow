@@ -2,7 +2,7 @@ obj
 bin
 
 *.suo
-*.html
+#*.html
 .enex
 
 EverCoow.Net/EverCoow/EverCoow.v11.suo

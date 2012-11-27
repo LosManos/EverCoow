@@ -7,6 +7,7 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using EverCoow.Extensions;
 using System.Diagnostics;
+using System.Xml;
 
 namespace EverCoow
 {
@@ -50,6 +51,7 @@ namespace EverCoow
         /// <param name="enexChapterPath">Path to the .enex chapter files.</param>
         /// <param name="enexChapterList">List of chapter names and their respective file names.</param>
         /// <param name="placeholders">The placeholders we use for replacing text.  Typically Do.DefaultPlaceholders.</param>
+        /// <param name="markdownConverter">Converter for enexmarkdown to emailhtml.</param>
         /// <param name="outPath">Path of the resulting output file.</param>
         /// <param name="outFilename">The name of the resulting output file.</param>
         public void Convert(
@@ -57,6 +59,7 @@ namespace EverCoow
             string enexLeaderPath, string enexLeaderFilename, 
             string enexChapterPath, List<EnexChapter> enexChapterList, 
             Placeholders placeholders, 
+            IMarkDownConverter markdownConverter, 
             string outPath, string outFilename)
         {
             var emailTemplate = ReadTextOfFile(templatePath, templateFilename);
@@ -96,7 +99,10 @@ namespace EverCoow
                     var articleList = enex.Read(enexChapterPath, chapter.FileName);
                     foreach (var article in articleList)
                     {
-                        sb.Append(template.Article.WithPlaceholder(article.Title, article.CdataContent.MailText));
+                        var articleDoc = new XmlDocument();
+                        articleDoc.LoadXml(article.CdataContent.InnerXml.InnerXml);
+                        var articleString = markdownConverter.Convert(articleDoc);
+                        sb.Append(template.Article.WithPlaceholder(article.Title, articleString));
                     }
                 }
             }
