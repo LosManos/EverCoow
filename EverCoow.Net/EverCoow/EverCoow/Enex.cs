@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml;
 
 namespace EverCoow
@@ -16,7 +12,9 @@ namespace EverCoow
             doc.Load(pathFilename );
 
             var ret = new List<Article>();
+// ReSharper disable PossibleNullReferenceException
             foreach (XmlNode node in doc.SelectNodes( "//note"))    //  "//note[tag[contains(.,'mbb')]]"))
+// ReSharper restore PossibleNullReferenceException
             {
                 ret.Add(Article.Create(node));
             }
@@ -28,7 +26,13 @@ namespace EverCoow
             //return q.ToList();
         }
 
-        public IList<Article> Read(string path, string filename)
+        /// <summary>This emthod reads the file in the parameters
+        /// and returns its contents.
+        /// </summary>
+        /// <param name="path"></param>
+        /// <param name="filename"></param>
+        /// <returns></returns>
+        public IList<Article> ReadFile(string path, string filename)
         {
             return Read(Path.Combine(path, filename));
         }

@@ -68,9 +68,13 @@
     <None Include="Data\LeaderAsPlaceholder.enex" />
     <None Include="Data\MyArticlesChapter2.enex" />
     <None Include="Data\MyFirstArticleChapter1.enex" />
-    <None Include="Data\MyFirstLeader.enex" />
+    <None Include="Data\MyFirstLeader.enex">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Data\ProperMerge.exp.html" />
+    <Content Include="Data\ProperMerge.out.html" />
     <Content Include="Data\SimplifiedTemplate.Data.html" />
     <Content Include="Data\Template.Data.html" />
   </ItemGroup>

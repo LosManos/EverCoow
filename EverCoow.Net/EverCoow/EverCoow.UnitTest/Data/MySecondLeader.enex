@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export2.dtd">
+<en-export export-date="20121212T151514Z" application="Evernote" version="Evernote Mac 5.0.0 (400524)">
+<note><title>My first article</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+This is my leader text.
+<div><br/></div>
+<div>With some more info.  And another sentence.</div>
+<div><br/></div>
+<div>And a <a href="http://link.example.com/a/myfile.aspx?x=1&amp;y=2">link</a>.  And <a href="http://another.example.com">another</a>.</div>
+</en-note>
+]]></content><created>20121124T215401Z</created><updated>20121212T151342Z</updated><tag>Ccc</tag><note-attributes/></note>
+</en-export>

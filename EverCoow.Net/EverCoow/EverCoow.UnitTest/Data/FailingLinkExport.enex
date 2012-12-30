@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export2.dtd">
+<en-export export-date="20121212T151759Z" application="Evernote" version="Evernote Mac 5.0.0 (400524)">
+<note><title>Failing link export</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+<a href="http://www.example.com/page.aspx?a=1&amp;b=2">MyLink</a><br/>
+</en-note>
+]]></content><created>20121212T151559Z</created><updated>20121212T151719Z</updated><note-attributes><latitude>57.700892442</latitude><longitude>11.959295829</longitude><altitude>0</altitude><author>LosManos</author></note-attributes></note>
+</en-export>

@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using EverCoow.Extensions;
-using System.Diagnostics;
-using System.Xml;
 
 namespace EverCoow
 {
@@ -59,7 +54,7 @@ namespace EverCoow
             string enexLeaderPath, string enexLeaderFilename, 
             string enexChapterPath, List<EnexChapter> enexChapterList, 
             Placeholders placeholders, 
-            IMarkDownConverter markdownConverter, 
+            IEverCoowMarkDownConverter markdownConverter, 
             string outPath, string outFilename)
         {
             var emailTemplate = ReadTextOfFile(templatePath, templateFilename);
@@ -67,8 +62,11 @@ namespace EverCoow
 
             var sb = new StringBuilder();
 
+            //  Before leader.
             sb.Append(template.Before);
             sb.Append(template.Leader.Before);
+
+            //  Leader.
             if (null == enexLeaderPath)
             {
                 //  We have no info about the Leader so keep the template Leader.
@@ -77,12 +75,13 @@ namespace EverCoow
             else
             {
                 var leaderEnex = new Enex();
-                var articles = leaderEnex.Read(enexLeaderPath, enexLeaderFilename);
+                var articles = leaderEnex.ReadFile(enexLeaderPath, enexLeaderFilename);
                 var leaderArticle = articles.Single();
-                sb.Append(leaderArticle.CdataContent.MailText);
+                sb.Append(markdownConverter.Convert( leaderArticle.CdataContent.InnerXml));
             }
             sb.Append(template.Leader.After);
 
+            //  Chapters.
             if (null == enexChapterPath)
             {
                 //  We have no info about the Chapters and Articles so keep the template data.
@@ -96,17 +95,16 @@ namespace EverCoow
                 {
                     sb.Append(template.ChapterHeader.WithPlaceholder(chapter.ChapterName));
 
-                    var articleList = enex.Read(enexChapterPath, chapter.FileName);
+                    var articleList = enex.ReadFile(enexChapterPath, chapter.FileName);
                     foreach (var article in articleList)
                     {
-                        var articleDoc = new XmlDocument();
-                        articleDoc.LoadXml(article.CdataContent.InnerXml.InnerXml);
-                        var articleString = markdownConverter.Convert(articleDoc);
+                        var articleString = markdownConverter.Convert(article.CdataContent.InnerXml);
                         sb.Append(template.Article.WithPlaceholder(article.Title, articleString));
                     }
                 }
             }
 
+            //  Footer.
             sb.Append(template.After);
 
             WriteFile(outPath, outFilename, sb);
@@ -206,10 +204,12 @@ namespace EverCoow
         /// <returns></returns>
         private static string ReadTextOfFile(string path, string filename)
         {
+            string ret;
             using (var sr = File.OpenText(Path.Combine(path, filename)))
             {
-                return sr.ReadToEnd();
+                ret = sr.ReadToEnd();
             }
+            return ret.Trim();  //  Trim also removes newlines et al.
         }
 
         /// <summary>This method writes the strinbuilder parameter as a file.

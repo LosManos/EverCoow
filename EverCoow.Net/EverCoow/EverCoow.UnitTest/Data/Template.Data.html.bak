@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -385,7 +385,9 @@
                                                                 <tr>
                                                                     <td valign="top">
 	<div mc:edit="postcard_heading00">
+
 {{Leader}}
+
 </div>
                                                                         <div mc:edit="std_content00"></div>
                                                                     </td>
@@ -417,6 +419,7 @@
 {{ArticleHeader}}</h4>
 					</div>
 					<div mc:edit="std_content00">
+
 {{ArticleBody}}
 					</div>
 				</td>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export2.dtd">
-<en-export export-date="20121124T214028Z" application="Evernote" version="Evernote Mac 3.3.1 (300245)">
-<note><title>testleader</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<en-export export-date="20121128T170407Z" application="Evernote" version="Evernote Mac 5.0.0 (400524)">
+<note><title>{{Leader}}</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
 <en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
 hejdig.
 <div><br/></div>
-<div>This is my leader text.
+<div>This is my leader text.</div>
 <div><br/></div>
+<div>With a <a href="http://example.com">stray link</a>.</div>
 <div><br/></div>
 <div>/OF</div>
-</div>
 <div><br/></div>
 <div>----8&lt;----</div>
 </en-note>
-]]></content><created>20121124T213824Z</created><updated>20121124T213934Z</updated><tag>Ccc</tag><note-attributes/></note>
+]]></content><created>20121128T170026Z</created><updated>20121128T170314Z</updated><note-attributes><latitude>57.700892442</latitude><longitude>11.959295829</longitude><altitude>0</altitude><author>LosManos</author></note-attributes></note>
 </en-export>
