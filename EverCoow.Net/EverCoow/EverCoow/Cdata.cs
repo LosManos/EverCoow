@@ -22,7 +22,8 @@ namespace EverCoow
                 //<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
                 //<en-note sty...
                 //...iv>\n</en-note>\n]]>
-                var matches = Regex.Matches(_cdataText, @"^<!\[CDATA.+\?>\s+(.*)\s+\]\]>", RegexOptions.Singleline);
+                //var matches = Regex.Matches(_cdataText, @"^<!\[CDATA.+\?>\s+(.*)\s+\]\]>", RegexOptions.Singleline);
+                var matches = Regex.Matches(_cdataText, @"^<!\[CDATA.+\?>\s+(.*)\]\]>", RegexOptions.Singleline);
                 return matches[0].Groups[1].Value;
             }
         }

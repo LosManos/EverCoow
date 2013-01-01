@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export2.dtd">
+<en-export export-date="20130101T213449Z" application="Evernote" version="Evernote Mac 5.0.0 (400524)">
+<note><title>Colour scheme designer with colour blindness visualisation</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+<div>Colours is a science of its own.  </div>
+<div><br/></div>
+<div>How do one choose the right colours for a site or application or when drawing or doodling?  One has only 3 choices: chance, feel or math.  Due to lack of time and a slight colour blindness I go for the latter.</div>
+<div><br/></div>
+<div>Below is a site that does the hard work for you.  It has several hidden features like export to different formats, manipulations like pastel and contrast and visualisation of how the colours look for different types of colour blindness.</div>
+<div><br/></div>
+<div>When you have decided for a colour scheme you can store the URL and get back to where you were.</div>
+<div><br/></div>
+<div>- <a href="http://colorschemedesigner.com">http://colorschemedesigner.com</a></div>
+</en-note>
+]]></content><created>20121219T082017Z</created><updated>20121219T084358Z</updated><tag>mbb</tag><note-attributes><latitude>57.700892442</latitude><longitude>11.959295829</longitude><altitude>0</altitude><author>LosManos</author></note-attributes></note>
+<note><title>Deliver 50 times a day</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+<div>Latest project I was in came with the usual birth labour.  Deliver.  Bugs found.  Correction.  Deliver.  Repeat.</div>
+<div>I find this good.  I believe in continuous delivery and repeated my mantra &quot;a delivery every 20 minutes&quot; for anyone who'd listen.  (reality:to anyone having the bad luck to be close enough)</div>
+<div>Then during one of these delivery iterations we felt a disturbance in the force; and checked online; and was Live!</div>
+<div><br/></div>
+<div>It wasn't a 20 minutes delivery and it wasn't 50 times a day but it was a first step.</div>
+<div><br/></div>
+<div>Below is linked a way bigger and more complex site than ours that deliver continuously.  50.  Times.  A day.</div>
+<div><br/></div>
+<div>- <a href="http://timothyfitz.com/2009/02/10/continuous-deployment-at-imvu-doing-the-impossible-fifty-times-a-day/">http://timothyfitz.com/2009/02/10/continuous-deployment-at-imvu-doing-the-impossible-fifty-times-a-day/</a></div>
+</en-note>
+]]></content><created>20121218T074414Z</created><updated>20121218T075559Z</updated><tag>mbb</tag><note-attributes><latitude>57.700892442</latitude><longitude>11.959295829</longitude><altitude>0</altitude><author>LosManos</author></note-attributes></note>
+<note><title>Solar powered Raspberry pi FTP server</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+<div>The title says it all.</div>
+<div>Now, why limit oneself to FTP?  It could just as well be a web server or media server.  The thing here is that solar power is enough to power it.  Just add water proofing and you have a server for your summer house.</div>
+<div><br/></div>
+<div> <a href="http://blog.makezine.com/2012/12/11/how-to-solar-powered-raspberry-pi-ftp-server/">http://blog.makezine.com/2012/12/11/how-to-solar-powered-raspberry-pi-ftp-server/</a></div>
+</en-note>
+]]></content><created>20121217T194816Z</created><updated>20121217T195018Z</updated><tag>mbb</tag><note-attributes><latitude>57.700892442</latitude><longitude>11.959295829</longitude><altitude>0</altitude><author>LosManos</author></note-attributes></note>
+<note><title>Gratis device emulators for testing</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+<div>Having recently delivered a project running on both Android and IOS tablets and phones I can testify it is cumbersome to test.  And debug.</div>
+<div>Ok, with Ios6 one can finally connect remotely to Safari but we had to support Ios5 too.  And what about debugging Chrome on Ipad?  Phew.</div>
+<div><br/></div>
+<div>So with 90% of the functionality we can move it to the desktop and the horse powers we have there.  Below is linked 6 such tools.</div>
+<div><br/></div>
+<div>- <a href="http://www.webdesignerdepot.com/2012/11/6-free-mobile-device-emulators-for-testing-your-site/">http://www.webdesignerdepot.com/2012/11/6-free-mobile-device-emulators-for-testing-your-site/</a></div>
+</en-note>
+]]></content><created>20121212T100951Z</created><updated>20121212T101429Z</updated><tag>mbb</tag><note-attributes><latitude>57.700892442</latitude><longitude>11.959295829</longitude><altitude>0</altitude><author>LosManos</author></note-attributes></note>
+<note><title>How do I become a hacker?</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+<div>The head line is one most used questions at a certain kind of forum.  The answer is the same as with learning to play an instrument.</div>
+<div>Practice.</div>
+<div><br/></div>
+<div>But where does one start?</div>
+<div>I really don't know but hackerhighschool seems as good as any.</div>
+<div><br/></div>
+<div>And remember - Hack everything but harm none.  Really.  As a 10 years old one hasn't developed ethics, as a 20 one is still new at the game and as a 40 years old one is still learning.</div>
+<div>Print it out &quot;Hack everything but harm none.&quot;  Put it on the wall behind the monitor. Read it.  Embrace it.  Hack.</div>
+<div><br/></div>
+<div>- http://www.google.com/     &lt;- best place to start learning hacking</div>
+<div>- <a href="http://www.hackerhighschool.org/lessons.html">http://www.hackerhighschool.org/lessons.html</a></div>
+</en-note>
+]]></content><created>20121129T074426Z</created><updated>20121129T080958Z</updated><tag>mbb</tag><note-attributes><latitude>57.700892442</latitude><longitude>11.959295829</longitude><altitude>0</altitude><author>LosManos</author></note-attributes></note>
+<note><title>Lego rubber band tank</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+Not bad.
+<div>Considering the creator i 9 years and have 20 hours of stamina - not bad at all!</div>
+<div><br/></div>
+<div>- http://www.youtube.com/watch?v=DP0TosvzoBI</div>
+<div><br/></div>
+<div>Tipthanks MaTh</div>
+</en-note>
+]]></content><created>20121129T073446Z</created><updated>20121217T195022Z</updated><tag>mbb</tag><note-attributes><latitude>57.700892442</latitude><longitude>11.959295829</longitude><altitude>0</altitude><author>LosManos</author></note-attributes></note>
+<note><title>Scariest prank.  Ever.</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+<div>It is like the Ring of pranks.</div>
+<div><br/></div>
+<div>- https://www.youtube.com/watch?v=7N5OhNplEd4</div>
+</en-note>
+]]></content><created>20121127T100409Z</created><updated>20121127T100527Z</updated><tag>mbb</tag><note-attributes/></note>
+<note><title>Nice looking props helmet</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+<div>Below is linked some nice instructions on how to build a 3D props helmet out of paper.</div>
+<div>First use a computer program to model the helmet in.  Then use another program to get the model translated to paper and lines to cut.  Then cut and glue and cut and glue.  And cut and glue some more.  Then apply bonding, polyester and other stuff every other time and sand every other.  Repeat and repeat.  Then apply layers and layers of paint.  The result below is quite nice looking.</div>
+<div><br/></div>
+<div>- <a href="http://protagonist4hire.blogspot.se/2012/01/prop-building-101-part-1-building.html">http://protagonist4hire.blogspot.se/2012/01/prop-building-101-part-1-building.html</a></div>
+</en-note>
+]]></content><created>20121114T201821Z</created><updated>20121127T100531Z</updated><tag>mbb</tag><note-attributes/></note>
+<note><title>Physical 1st person shooter</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+<div>Playing FPS is probably the most fun thing you can do with your clothes on.</div>
+<div>What it lacks though is sweat and pain.</div>
+<div><br/></div>
+<div>We have all dreamt about the 2D tread mill so we can walk and run in any direction instead of slouching in the couch.  And we have all dreamt about the surround graphics filling our view field with intense graphics.  Now this is done.</div>
+<div><br/></div>
+<div>And to add…</div>
+<div>…paint ball markers to give sensory input when you get fragged!<br/></div>
+<div><br/></div>
+<div>Sensoring is done through a Kinect so you can do it naked too.</div>
+<div><br/></div>
+<div>Reality is coming closer as we speak.</div>
+<div><br/></div>
+<div>- <a href="http://www.youtube.com/watch?v=eg8Bh5iI2WY" target="_blank" style="color: rgb(17, 85, 204); font-family: arial, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">http://www.youtube.com/watch?v=eg8Bh5iI2WY</a></div>
+<div><br/></div>
+<div>Tipthanks Fx</div>
+</en-note>
+]]></content><created>20121029T191043Z</created><updated>20121029T191950Z</updated><tag>mbb</tag><note-attributes/></note>
+<note><title>Unit testing and SMTP</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd"><en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div><a href="http://feedproxy.google.com/~r/thinqlinq/rss/~3/KBFJvOtYSsg/Unit-testing-and-SMTP">http://feedproxy.google.com/~r/thinqlinq/rss/~3/KBFJvOtYSsg/Unit-testing-and-SMTP</a></div></en-note>]]></content><created>20120824T081955Z</created><updated>20120824T081959Z</updated><tag>mbb</tag><note-attributes><latitude>57.6452</latitude><longitude>11.9869</longitude><altitude>0</altitude><source>mobile.android</source><source-url>http://feedproxy.google.com/~r/thinqlinq/rss/~3/KBFJvOtYSsg/Unit-testing-and-SMTP</source-url></note-attributes></note>
+<note><title>DIY aircraft</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>Now, when we are about to get 3D printers and affordable CNC machines in every household why not make an aircraft? Open source!</div><div><br/></div><div>-&nbsp;<a href="http://makerplane.org/">http://makerplane.org/</a></div></en-note>]]></content><created>20120822T070253Z</created><updated>20120822T070358Z</updated><tag>mbb</tag><note-attributes/></note>
+<note><title>US government (or military) eaves drop your private Facebook postings</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+<div>In the name of the holy war against terrorism and people with different opinions your facebook private files might be read by the U.S. national security details.</div>
+<div><br/></div>
+<div>In the defense of the Holy warriors in the holy war against terrorism and different opinionated, the guy arrested was putting out some real threats.  Personally I'd prefer to have him under surveillance and treatment too.</div>
+<div>But the fact remains that Facebook isn't private.  Not even the private parts are private.</div>
+<div><br/></div>
+<div>Which leads me to Microsoft skydrive where one is not allowed to store nude pictures or warez.  This means that there is constant surveillance of what you store.  I have lost the link though.</div>
+<div><br/></div>
+<div>Equally lost is the link to the guy at Google, a contractor, that had as job to sift through juicy pictures; the real juicy, like goatse-juicy ones.  He had to go to therapy afterwards.</div>
+<div><br/></div>
+<div>- <a href="http://yro.slashdot.org/story/12/08/20/2345253/ex-marine-detained-for-facebook-posts-deemed-terrorist-in-nature">http://yro.slashdot.org/story/12/08/20/2345253/ex-marine-detained-for-facebook-posts-deemed-terrorist-in-nature</a></div>
+<div><br/></div>
+<div>I guess I get bumped with <a href="http://en.wikipedia.org/wiki/ECHELON">Echelon</a> for this.</div>
+</en-note>
+]]></content><created>20120821T065552Z</created><updated>20120822T193841Z</updated><tag>mbb</tag><note-attributes/></note>
+<note><title>Mousetrap - keyboard shortcuts in javascript (web)</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>The Web interface is very mouse pointer oriented which sucks big time since I am born with just two hands and they are on my keyboard.<br/>
+Mouse works fine for browsing but input? No.<br/><br/></div><div>Fat client programs have keyboard shortcuts which is still The reason to use them instead of Web applications.</div><div>But look at gmail for instance; press ? and a help screen pops up. C for composing a new letter, GI for getting back to the inbox and so forth.<br/>
+Implementing this on your own is a great pain, unless you use a lib of course when it is only Less of a pain.</div><div><br/></div><div>Mousetrap, the lib linked below, contains tools for ctrl-a, ctrl-shift-a and the like, &quot;hormal&quot; shortcuts if you prefer. &nbsp;It also contains gmail-style which are ?, C, GI etc. &nbsp;To top it up it contains whay they call Konami style. &nbsp;An example of that would be: up up up down up up left right lef right down a x. &nbsp;There are live examples right on their site.</div><div><br/></div><div>-&nbsp;<a href="http://craig.is/killing/mice">http://craig.is/killing/mice</a></div></en-note>]]></content><created>20120820T084316Z</created><updated>20120822T085628Z</updated><tag>mbb</tag><note-attributes><latitude>57.643</latitude><longitude>11.9877</longitude><altitude>0</altitude><source>mobile.android</source><source-url>http://craig.is/killing/mice</source-url></note-attributes></note>
+<note><title>Pricing - Upverter</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd"><en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div><a href="http://upverter.com/pricing">http://upverter.com/pricing</a>/</div></en-note>]]></content><created>20120820T083910Z</created><updated>20120820T083917Z</updated><tag>mbb</tag><note-attributes><latitude>57.643</latitude><longitude>11.9875</longitude><altitude>0</altitude><source>mobile.android</source><source-url>http://upverter.com/pricing/</source-url></note-attributes></note>
+<note><title>Home made prosthetic arm</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>One should not fish with dynamite. &nbsp;It is bad for the fish. &nbsp;It can also be bad for the hands.</div><div>So this guy does some dynamite fishing and blows of his hands.</div><div>Without hands he still manages to create two prosthetic hands.</div><div>How&apos;s that for dexterity?</div><div><br/></div><div>-&nbsp;<a href="http://www.huffingtonpost.com/2012/08/15/sun-jifa-prosthetic-hands_n_1777168.html">http://www.huffingtonpost.com/2012/08/15/sun-jifa-prosthetic-hands_n_1777168.html</a></div></en-note>]]></content><created>20120817T135154Z</created><updated>20120817T135333Z</updated><tag>mbb</tag><note-attributes/></note>
+<note><title>Free classical music</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>Modern music is owned by someone.</div><div>Older music might be free.</div><div>Some people has collected old music for our convenience. &nbsp;Free.</div><div>Not as in Free beer but as in Free speach.</div><div><br/></div>
+- <a href="http://musopen.org/music/by/performer/Musopen-Symphony-Orchestra">http://musopen.org/music/by/performer/Musopen-Symphony-Orchestra</a></en-note>]]></content><created>20120817T134814Z</created><updated>20120817T135051Z</updated><tag>mbb</tag><note-attributes/></note>
+<note><title>Site for helping you with those pesky Terms-of-service</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+<div>Have you ever read one Terms of service?  I doubt I have.</div>
+<div>Have you ever written a Terms of service?  I have not.  My personal terms of service are either Works on my machine or I don't owe you and you don't owe me.</div>
+<div><br/></div>
+<div>Now there is a site to grade and discuss Terms of service.  It also has a wonderful feature - a diff feature.  Every time you get a new Flash patch you have some ks of words of Terms of service but what is new?  A diff is exactly that - tells you what is new, changed and gone.</div>
+<div><br/></div>
+<div>One thing to look for that I haven't noticed earlier is the right to leave the service.  According to Steam or Skype you cannot.  It's like a Cockroach hotel.</div>
+<div><br/></div>
+<div>Duckduckgo gets full grades but it is also a very simple service.  Github is one grade down.  Facebook is not graded yet but we know which end of the scale it ends up on.  I guess Google, despite trying hard, is going towards that same end.</div>
+<div><br/></div>
+<div>Below is also linked to an aid for creating your own privacy policies.</div>
+<div><br/></div>
+<div>- <a href="http://tos-dr.info/">http://tos-dr.info/</a></div>
+<div>- <a href="http://termsfeed.com/free/privacy-policy-generator">http://termsfeed.com/free/privacy-policy-generator</a></div>
+</en-note>
+]]></content><created>20120816T070707Z</created><updated>20120822T194852Z</updated><tag>mbb</tag><note-attributes/></note>
+<note><title>Logo for DRM free files</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+DRM, aka copy protection, is a way of the past even though not everyone has understood. &nbsp;Ok ok, to be honest I know of some places where it is a good fit but for, say, music or moving pictures it is more of a wart than real limb.<br/><div><br/></div><div>Someone has created a logo for this. &nbsp;My trained artist eye says the logo is hideous.</div><div><br/></div><div>-&nbsp;<a href="http://www.defectivebydesign.org/node/2243">http://www.defectivebydesign.org/node/2243</a></div></en-note>]]></content><created>20120816T070128Z</created><updated>20120816T070433Z</updated><tag>mbb</tag><note-attributes/></note>
+<note><title>Use Google to search for patents</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>Google has for a long time has a service for searching for patents. &nbsp;Both regular patents and the sick, mis formed, abused, innovation halting and humanity unfriendly software patents. &nbsp;It is now extended to try to search for prior art.</div><div><br/></div><div>Which leads me to my own site, Selfelected ideas, where I drop ideas I have just to make sure that no one believe they are alone with inventing such a obvious idea.</div><div><br/></div><div>-&nbsp;<a href="http://www.engadget.com/2012/08/15/google-patents-gets-prior-art-and-european-patent-search/">http://www.engadget.com/2012/08/15/google-patents-gets-prior-art-and-european-patent-search/</a></div><div>- <a href="http://ideas.selfelected.com/">http://ideas.selfelected.com/</a></div></en-note>]]></content><created>20120816T065629Z</created><updated>20120816T070159Z</updated><tag>mbb</tag><note-attributes/></note>
+<note><title>Jquery 1.8 release (web)</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+Jquery 1.8 release (web)
+<div><br/></div><div>Smaller. &nbsp;Faster. &nbsp;Modularised.</div><div>Modularisation means one can use Grunt to strip out unnecessary stuff. &nbsp;Still not as good a jquery-ui where there is a GUI for what you want to use and not and create a script with just what you need.</div><div><br/></div><div>-&nbsp;<a href="http://blog.jquery.com/2012/08/09/jquery-1-8-released/">http://blog.jquery.com/2012/08/09/jquery-1-8-released/</a></div></en-note>]]></content><created>20120816T064014Z</created><updated>20120816T064332Z</updated><tag>mbb</tag><note-attributes/></note>
+<note><title>Watch in CSS (web)</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+Watch in CSS (web)
+<div><br/></div><div>Nice animation of a watch. &nbsp;Almost only done in CSS.</div><div><br/></div><div>-&nbsp;<a href="http://codepen.io/TheSisb/pen/eAHyJ">http://codepen.io/TheSisb/pen/eAHyJ</a></div></en-note>]]></content><created>20120816T063937Z</created><updated>20120816T063941Z</updated><tag>mbb</tag><note-attributes/></note>
+<note><title>Nice presentation</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+Nice presentation
+<div><br/></div><div>A presentation for presentation&apos;s sake. &nbsp;Nice one too.</div><div><br/></div><div>-&nbsp;<a href="http://www.ted.com/talks/marco_tempest_the_electric_rise_and_fall_of_nikola_tesla.html">http://www.ted.com/talks/marco_tempest_the_electric_rise_and_fall_of_nikola_tesla.html</a></div><div><br/></div><div>Tipthanks FredrikH</div></en-note>]]></content><created>20120815T141756Z</created><updated>20120815T141954Z</updated><tag>mbb</tag><note-attributes/></note>
+<note><title>No more Flash updates on the Android platform (android)</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>What does this mean?</div><div>Well... when the next vulnerability is found on Flash running on Android all Flash has to go on your Android devices.</div><div>Read that again if you have an Android device and didn&apos;t get it. &nbsp;It might be important.</div><div><br/></div><div>-&nbsp;<a href="http://www.engadget.com/2012/08/14/psa-adobe-halts-new-installs-of-flash-on-android-as-of-tomorrow/">http://www.engadget.com/2012/08/14/psa-adobe-halts-new-installs-of-flash-on-android-as-of-tomorrow/</a></div></en-note>]]></content><created>20120815T112407Z</created><updated>20120816T070154Z</updated><tag>mbb</tag><note-attributes/></note>
+<note><title>Common infrastructure libraries for .NET</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>Have you ever had to choose between log4net (how much is it developed today?), nlog (newer and fresher but better?) and enterprise framework (can do everything but how?) and decided to postpone or ever roll your own?</div><div><br/></div><div>Have you ever been in a project where some run log4net and others nlog and someone used ef some years ago?</div><div><br/></div><div>Enter Netcommon. &nbsp;It presents a common interface for everything logging. &nbsp;The plans are for supporting more infrastructure stuff in the future but right now only logging is ready.</div><div>So you can write logging through Netcommon and don&apos;t care what people use as down the road. &nbsp;A nice idea. &nbsp;I have to go down the corridor to talk to a guy who has used it. &nbsp;Be right back!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div><div><br/></div><div>-&nbsp;<a href="http://netcommon.sourceforge.net/">http://netcommon.sourceforge.net</a>/</div></en-note>]]></content><created>20120815T074144Z</created><updated>20120823T125620Z</updated><tag>mbb</tag><note-attributes><latitude>57.6455</latitude><longitude>11.9863</longitude><altitude>0</altitude><source>mobile.android</source><source-url>http://netcommon.sourceforge.net/</source-url></note-attributes></note>
+<note><title>Announcing Git Integration with TFS</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd"><en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div><a href="http://blogs.msdn.com/b/bharry/archive/2012/08/13/announcing-git-integration-with-tfs.aspx">http://blogs.msdn.com/b/bharry/archive/2012/08/13/announcing-git-integration-with-tfs.aspx</a></div></en-note>]]></content><created>20120814T075553Z</created><updated>20120814T075558Z</updated><tag>mbb</tag><note-attributes><latitude>57.6457</latitude><longitude>11.9862</longitude><altitude>0</altitude><source>mobile.android</source><source-url>http://blogs.msdn.com/b/bharry/archive/2012/08/13/announcing-git-integration-with-tfs.aspx</source-url></note-attributes></note>
+<note><title>Whiteboard on the web (web)</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>Need to scribble and doodle with someone out of arms&apos; reach?</div><div>Go online!</div><div><br/></div><div><a href="http://webwhiteboard.com/">http://webwhiteboard.com</a>/</div></en-note>]]></content><created>20120814T075132Z</created><updated>20120816T070615Z</updated><tag>mbb</tag><note-attributes><latitude>57.6457</latitude><longitude>11.9862</longitude><source>mobile.android</source><source-url>http://webwhiteboard.com/#/</source-url></note-attributes></note>
+<note><title>How differential gears work</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>I know how differential gears (differentialväxel) work. &nbsp;And You know how differential gears work. &nbsp;But trying to explain how it works is another issue.</div><div><br/></div><div>So below is linked a flick from the times when the moving pictures where black and white but mostly grey and people smoked in their homes and women were secretaries and wore skirts but above all the Car was teh Future and gasoline was neither scarce, expensive or polluting the earth.</div><div>Strangely enough it does a good job of explaining how differential gears work. &nbsp;You can wind 1:30 or 3:15 into the movie to avoid some of the fluff.</div><div><br/></div><div>-&nbsp;<a href="http://www.youtube.com/watch?v=K4JhruinbWc">http://www.youtube.com/watch?v=K4JhruinbWc</a></div><div><br/></div><div>Tipthanks MaTh</div></en-note>]]></content><created>20120813T131015Z</created><updated>20120813T131704Z</updated><tag>mbb</tag><note-attributes/></note>
+<note><title>Great jQuery plugins for fresh websites</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd"><en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div><a href="http://www.webdesignerdepot.com/2012/08/great-jquery-plugins-for-fresh-websites">http://www.webdesignerdepot.com/2012/08/great-jquery-plugins-for-fresh-websites</a>/</div></en-note>]]></content><created>20120813T111628Z</created><updated>20120813T111633Z</updated><tag>mbb</tag><note-attributes><latitude>57.6454</latitude><longitude>11.9873</longitude><altitude>0</altitude><source>mobile.android</source><source-url>http://www.webdesignerdepot.com/2012/08/great-jquery-plugins-for-fresh-websites/</source-url></note-attributes></note>
+<note><title>Retro commercials: old toys your parents loved</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd"><en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div><a href="http://www.webdesignerdepot.com/2012/08/retro-commercials-old-toys-your-parents-loved">http://www.webdesignerdepot.com/2012/08/retro-commercials-old-toys-your-parents-loved</a>/</div></en-note>]]></content><created>20120812T150208Z</created><updated>20120812T150213Z</updated><tag>mbb</tag><note-attributes><latitude>57.6971</latitude><longitude>11.9315</longitude><altitude>0</altitude><source>mobile.android</source><source-url>http://www.webdesignerdepot.com/2012/08/retro-commercials-old-toys-your-parents-loved/</source-url></note-attributes></note>
+<note><title>Dashiell Hammett on the death of Flash</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd"><en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div><a href="http://www.webdesignerdepot.com/2012/08/dashiell-hammett-on-the-death-of-flash">http://www.webdesignerdepot.com/2012/08/dashiell-hammett-on-the-death-of-flash</a>/</div></en-note>]]></content><created>20120812T091457Z</created><updated>20120812T091502Z</updated><tag>mbb</tag><note-attributes><latitude>57.6959</latitude><longitude>11.9324</longitude><altitude>0</altitude><source>mobile.android</source><source-url>http://www.webdesignerdepot.com/2012/08/dashiell-hammett-on-the-death-of-flash/</source-url></note-attributes></note>
+<note><title>Your Path through Agile Fluency</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd"><en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div><a href="http://martinfowler.com/articles/agileFluency.html">http://martinfowler.com/articles/agileFluency.html</a></div></en-note>]]></content><created>20120812T090130Z</created><updated>20120812T090135Z</updated><tag>mbb</tag><note-attributes><latitude>57.6959</latitude><longitude>11.9324</longitude><altitude>0</altitude><source>mobile.android</source><source-url>http://martinfowler.com/articles/agileFluency.html</source-url></note-attributes></note>
+<note><title>Textmate 2 going F/OSS (mac)</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space; ">
+	<div>Contrary to Windows there is just a handful of free and gratis text editors on the Mac.  Textmate is one of them and it is now going open source.  Not only that, it is going GPLv3 which means than no fork of it can be sold in the app store.</div>
+	<div><br/></div>
+	<div>&lt;trying&gt;</div>
+	<div>     &lt;to&gt;</div>
+	<div>          &lt;resist&gt;</div>
+	<div>          &lt;/resist&gt;</div>
+	<div>     &lt;/to&gt;</div>
+	<div>&lt;/trying&gt;</div>
+	<div>&lt;fail/&gt;</div>
+	<div><br/></div>
+	<div>I'll throw a log in the fire and write that the editors on the mac are lacking in usability.</div>
+	<div>The litmus test is to edit a file without using the mouse.</div>
+	<div><br/></div>
+	<div>- <a href="http://blog.macromates.com/2012/textmate-2-at-github/">http://blog.macromates.com/2012/textmate-2-at-github/</a></div>
+
+
+</en-note>
+]]></content><created>20120810T104118Z</created><updated>20120819T091244Z</updated><tag>mbb</tag><note-attributes/></note>
+<note><title>Watching Netflix or Hulu from outside USA or Canada is not impossible (web)</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>Watching Netflix or Hulu from outside USA or Canada is not impossible (web)</div><div><br/></div><div><br/></div><div>Watching Netflix or Hulu from outside USA or Canada is not impossible, it just requires a few tweeks. (web)</div><div>Below is linked info for a newbie.</div><div><br/></div><div>Update: Netflix is coming to Scandinavia and Finland.</div><div><br/></div><div>-&nbsp;<a href="http://www.networkworld.com/community/node/81175">http://www.networkworld.com/community/node/81175</a></div><div>-&nbsp;<a href="http://www.engadget.com/2012/08/15/netflix-watch-instantly-streaming-scandinavia/">http://www.engadget.com/2012/08/15/netflix-watch-instantly-streaming-scandinavia/</a></div></en-note>]]></content><created>20120810T081853Z</created><updated>20120816T065539Z</updated><tag>mbb</tag><note-attributes/></note>
+<note><title>The patent war between Samsung and Apple described as a flower</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>Apple created an icon with a blue sky, green leaves and a yellow sunflower for the gallery. &nbsp;Samsung created an icon with a yellow flower and a couple of green leavers. &nbsp;The original article sees this as a rip off.</div><div><br/></div><div>I see imitation as the highest form of flattery. &nbsp;Plus; I don&apos;t see a flower and blue sky as so unique for a GUI that a company should be able to own it. &nbsp;Or if it is so wonderful a solution - then maybe a company shouldn&apos;t be able to own it but instead the whole world.</div><div><br/></div><div>But we freedom fighting heroes are not without flaw. &nbsp;Open source initiative, one of the good guys, is fighting with Open source hardare, another good guy, about an icon and another icon.</div><div>Personally I see no reason they shouldn&apos;t be able to live together. &nbsp;Not the Open source initiative logo is darn ugly but that is beside the case.</div><div><br/></div><div>-&nbsp;<a href="http://thenextweb.com/apple/2012/08/08/apples-argument-that-samsung-copied-its-software-designs-summed-up-by-a-single-yellow-flower/">http://thenextweb.com/apple/2012/08/08/apples-argument-that-samsung-copied-its-software-designs-summed-up-by-a-single-yellow-flower/</a></div><div>-&nbsp;<a href="http://www.networkworld.com/news/2012/080812-open-source-movements-butt-heads-over-261484.html">http://www.networkworld.com/news/2012/080812-open-source-movements-butt-heads-over-261484.html</a></div></en-note>]]></content><created>20120810T081014Z</created><updated>20120810T081627Z</updated><tag>mbb</tag><note-attributes/></note>
+<note><title>Ouya preorderable (android)</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+It&apos;s an open game console with an Android engine.
+<div>One of the shiny parts is that is was funded through Kickstarter.<br/><div><br/></div><div>-&nbsp;<a href="http://www.pcmag.com/article2/0,2817,2408269,00.asp">http://www.pcmag.com/article2/0,2817,2408269,00.asp</a></div></div></en-note>]]></content><created>20120810T072855Z</created><updated>20120810T073014Z</updated><tag>mbb</tag><note-attributes/></note>
+<note><title>DYI - a 3D touchless tracking device (arduino)</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>You need a computer, an Arduino, some wires and electronics components, time and patience.</div><div><div>Of course it is a little course. &nbsp;Of course it takes a few hours to put together. &nbsp;Of course it isn&apos;t compatible with your latest games.</div><br/></div><div>The documentation puts some weight on everything sharing the same ground. &nbsp;In Sweden laptops are often not grounded but that could be remedied by yet another wire acting as ground.</div><div><br/></div><div>-&nbsp;<a href="http://makeprojects.com/Project/A-Touchless-3D-Tracking-Interface/2233/1">http://makeprojects.com/Project/A-Touchless-3D-Tracking-Interface/2233/1</a></div></en-note>]]></content><created>20120810T065131Z</created><updated>20120810T065721Z</updated><tag>mbb</tag><note-attributes/></note>
+<note><title>Hammer.js - javascript touch lib (web,mobile)</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>If you are just starting your utterly responsive HTML javascript project you should be aware that the browser on Ios has a 300ms delay between tap and click.</div><div><br/></div><div>There are totally valid reasons for this but outside the scope of this article.</div><div>300ms is noticeable. &nbsp;I foresee it will decrease in the future when we get screens with more sensors and intelligence in them. &nbsp;Also outside the scope of this article.</div><div><br/></div><div>Never the less, if you are writing a HTML5 game this might be a show stopper so you are into writing your own handlers for down, up and click/tap/press. &nbsp;And there goes your initial estimates for a demo because down-up-click is a framework on its own, especially combined with doubleclick, swipe, pinch and drag.</div><div><br/></div><div>Talking of frameworks, the link below tries to solve just that.</div><div><br/></div><div>-&nbsp;<a href="http://eightmedia.github.com/hammer.js/">http://eightmedia.github.com/hammer.js/</a></div></en-note>]]></content><created>20120809T065105Z</created><updated>20120809T065659Z</updated><tag>mbb</tag><note-attributes/></note>
+<note><title>GTD with Evernote</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>The secret weapon is the name for a project? solution? idea? community? that has put GTD (getting things done) together with Evernote.</div><div><br/></div><div>GTD is in short:</div><div>If you can do it in less than 5 minutes - do it now.</div><div>The rest - put on a list and prioritise.</div><div>When the &lt;5minutes tasks are done: review list.</div><div>GOTO 10</div><div><br/></div><div>-&nbsp;<a href="http://www.thesecretweapon.org/">http://www.thesecretweapon.org/</a></div></en-note>]]></content><created>20120808T075112Z</created><updated>20120808T113743Z</updated><tag>mbb</tag><note-attributes/></note>
+<note><title>Raspberry pi + Xbmc + Airplay (linux)</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>Raspberry pi is a small and cheap (&lt;30€) computer that doesn&apos;t draw lots of energy (&lt;5W). It also doesn&apos;t have a fan or any other moving parts; this makes it fitting for a living room.
+<div><br/></div>
+Now the moment we all have been waiting for has arrived - Xbmc works on Raspberry pi. And not only that - also Airplay works.
+<div><br/></div>
+(Airplay is an Apple construct to share screen content between devices. Typically you can play youtube on your ipad and watch it on the tv.)</div><div><br/></div><div>A konkullega has tried it and it was no problem he said. &nbsp;Also 1080 works if the file is not too heavy. &nbsp;A 30 gig file stuttered. &nbsp;He got airplay audio to work but no video.<br/><div><br/></div>
+-<a href="http://www.hanselman.com/blog/AddingAirPlayToAReceiverWithoutAnAppleTVRaspbmcAndTheRaspberryPi.aspx">http://www.hanselman.com/blog/AddingAirPlayToAReceiverWithoutAnAppleTVRaspbmcAndTheRaspberryPi.aspx</a><br/>
+-<a href="http://www.hanselman.com/blog/Top10RaspberryPiMythsAndTruths.aspx">http://www.hanselman.com/blog/Top10RaspberryPiMythsAndTruths.aspx</a>&lt;- more about what raspberrypi can do<br/>
+- <a href="http://apc.io/">http://apc.io/</a>&lt;- higher price, more horse power and less press coverage<br/>
+- <a href="http://www.fxitech.com/fxi-demonstrates-any-screen-connected-computing">http://www.fxitech.com/fxi-demonstrates-any-screen-connected-computing</a>/ &lt;- memory stick sized, usb powered android computer using existing hdmi monitors as screen</div></en-note>]]></content><created>20120808T065313Z</created><updated>20120821T092241Z</updated><tag>mbb</tag><note-attributes/></note>
+<note><title>Monkeycoder</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>Multi platform game development.</div><div><br/></div><div>The program translates the Monkeycoder language to several others which can then be compiled in respective environment. &nbsp;And sold. &nbsp;And profited.</div><div><br/></div><div>-&nbsp;<a href="http://www.monkeycoder.co.nz/">http://www.monkeycoder.co.nz</a>/
+<div><br/></div>
+Tipthanks DanielG</div></en-note>]]></content><created>20120805T070619Z</created><updated>20120808T113849Z</updated><tag>mbb</tag><note-attributes><latitude>57.6968</latitude><longitude>11.9316</longitude><source>mobile.android</source><source-url>http://www.monkeycoder.co.nz/</source-url></note-attributes></note>
+<note><title>List and poll and summary of HTML5 development tools (web)</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>Below is linked a survey, a listing and some summaries about HTML5 development tools. &nbsp;Most programs I (you) already know of but browsing such lists once in a while can be worth its while.</div><div><br/></div><div>-&nbsp;<a href="http://www.infoq.com/research/valuable-tech-html5-development">http://www.infoq.com/research/valuable-tech-html5-development</a></div></en-note>]]></content><created>20120805T070448Z</created><updated>20120809T092636Z</updated><tag>mbb</tag><note-attributes><latitude>57.6969</latitude><longitude>11.9315</longitude><source>mobile.android</source><source-url>http://www.infoq.com/research/valuable-tech-html5-development</source-url></note-attributes></note>
+<note><title>JSHint, A JavaScript Code Quality Tool</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>Text copied from the about screen explains it best.</div><div>&quot;JSHint is a community-driven tool to detect errors and potential problems in JavaScript code and to enforce your team&apos;s coding conventions.&nbsp;It is very flexible so you can easily adjust it to your particular coding guidelines and the environment you expect your code to execute in.&quot;</div><div><br/></div><div>There is a big text box. &nbsp;Just paste your code and feel ashamed of yourself.</div><div><br/></div><div>-&nbsp;<a href="http://www.jshint.com/">http://www.jshint.com</a>/</div></en-note>]]></content><created>20120805T070419Z</created><updated>20120808T114620Z</updated><tag>mbb</tag><note-attributes><latitude>57.6969</latitude><longitude>11.9316</longitude><source>mobile.android</source><source-url>http://www.jshint.com/</source-url></note-attributes></note>
+<note><title>Javascript frameworks to aid Model/DOM-manipuation on the client (web)</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space; ">
+	<div>Using MV frameworks on the client is pure goodness until one stumbles upon a situation where it doesn't work and instead trips you.</div>
+	<div>But I have tried one such framework and the logic became so much clearer.  Plus presumably easier to test.  I don't do that stuff.</div>
+	<div><br/></div>
+	<div>Angular isn't MVVM but MVW, whatever that stands for, and has another model for sending data between DOM elements.  Sort of MVVM without the Model.  It looks like it's a Google product.</div>
+	<div><br/></div>
+	<div>Backbone has a Model.  When it is updated the DOM updates.  When the DOM updates so does the Model. It is more MVC than MVVM. It relies on underscore, another helper lib which might be good to have in the toolbox.</div>
+	<div><br/></div>
+	<div>Ember is a tool that targets bigger solutions.  It has MV and templating like the others.  Recently out with a new beta.  They call it 1.0pre.  Which is a beta AFAIK.</div>
+	<div><br/></div>
+	<div>Knockout is a MVVM framework that just happens to be the one blessed by Aspnet.  I have tried it.  I like it.</div>
+	<div><br/></div><div>Then there I Knockback to mix the Knockout and Backbone worlds.</div><div><br/></div>
+	<div>- <a href="http://angularjs.org/">http://angularjs.org</a>/</div>
+	<div>- <a href="http://backbonejs.org/">http://backbonejs.org/</a></div>
+	<div>- <a href="http://emberjs.com/">http://emberjs.com/</a></div>
+	<div>- <a href="http://knockoutjs.com/">http://knockoutjs.com/</a></div><div><span style="background-color: rgba(255, 255, 255, 0.0078125);">- <a href="http://kmalakoff.github.com/knockback/">http://kmalakoff.github.com/knockback/</a></span></div><div><span style="background-color: rgba(255, 255, 255, 0.0078125);">- <a href="http://stackoverflow.com/questions/5112899/knockout-js-vs-backbone-js-vs">http://stackoverflow.com/questions/5112899/knockout-js-vs-backbone-js-vs</a> &lt;-comparision and discussion</span></div>
+
+
+</en-note>
+]]></content><created>20120805T070319Z</created><updated>20121217T133331Z</updated><tag>mbb</tag><note-attributes><latitude>57.6967</latitude><longitude>11.9315</longitude><altitude>0</altitude><source>mobile.android</source><source-url>http://angularjs.org/</source-url></note-attributes></note>
+<note><title>Aspnetmvc, Webapi, Jquery, Knockout and Signlr all together</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>Aspnetmvc, Webapi, Jquery, Knockout and Signlr all together.</div><div>In an hour or less.</div><div>Awesome.</div><div>Continue with googling with bing for &quot;webstack of love&quot;to more of his presentations.</div><div><br/></div><div>BTW: NDC (Norwegian Developer Conference) has most (all?) of its presentations online. &nbsp;There are many good ones.</div><div><br/></div><div>-&nbsp;<a href="http://vimeo.com/m/43603472">http://vimeo.com/m/43603472</a></div></en-note>]]></content><created>20120804T091036Z</created><updated>20120808T120219Z</updated><tag>mbb</tag><note-attributes><latitude>57.6967</latitude><longitude>11.932</longitude><source>mobile.android</source><source-url>http://vimeo.com/m/43603472</source-url></note-attributes></note>
+<note><title>About Google's one day a week</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd"><en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>Google is famous for letting their developers do other stuff 20% of the time. That is quite a lot of time. But it seems to work!<div><br/></div>- <a href="http://www.codinghorror.com/blog/2012/08/today-is-goof-off-at-work-day.html">http://www.codinghorror.com/blog/2012/08/today-is-goof-off-at-work-day.html</a><br/> </div></en-note>]]></content><created>20120803T211728Z</created><updated>20120804T090331Z</updated><tag>mbb</tag><note-attributes><latitude>57.6967</latitude><longitude>11.9316</longitude><altitude>0</altitude><source>mobile.android</source><source-url>http://www.codinghorror.com/blog/2012/08/today-is-goof-off-at-work-day.html</source-url></note-attributes></note>
+<note><title>Create a menu in CSS3</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd"><en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>The article below is nice. The code probably ok. But. As always with CSS it requires a certain width, 960 in this case.<div><br/></div>I will continue my holy war against pixel width in the web.<div><br/></div>- <a href="http://www.webdesignerdepot.com/2012/08/create-a-stunning-menu-in-css3">http://www.webdesignerdepot.com/2012/08/create-a-stunning-menu-in-css3</a>/<br/> </div></en-note>]]></content><created>20120803T182503Z</created><updated>20120804T090559Z</updated><tag>mbb</tag><note-attributes><latitude>57.6967</latitude><longitude>11.9316</longitude><altitude>0</altitude><source>mobile.android</source><source-url>http://www.webdesignerdepot.com/2012/08/create-a-stunning-menu-in-css3/</source-url></note-attributes></note>
+<note><title>Mactuts+ - mac tutorials</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>If the Mac isn&apos;t as easy to use as you expected.</div><div><br/></div><div>-&nbsp;<a href="http://mac.tutsplus.com/">http://mac.tutsplus.com</a>/</div></en-note>]]></content><created>20120731T095745Z</created><updated>20120808T120314Z</updated><tag>mbb</tag><note-attributes><latitude>57.733</latitude><longitude>12.0703</longitude><altitude>0</altitude><source>mobile.android</source><source-url>http://mac.tutsplus.com/</source-url></note-attributes></note>
+<note><title>Benchmarque – Comparative Benchmarking for .NET | Chris Patterson's Blog</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd"><en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div><a href="http://lostechies.com/chrispatterson/2012/07/18/benchmarque-comparative-benchmarking-for-net">http://lostechies.com/chrispatterson/2012/07/18/benchmarque-comparative-benchmarking-for-net</a>/</div></en-note>]]></content><created>20120731T095625Z</created><updated>20120731T095636Z</updated><tag>mbb</tag><note-attributes/></note>
+<note><title>Windows 8 and surface relased 2012-10-26 (win)</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space; ">
+	<div>Windows8 and Windows surface (the tablet) will be here <a>2012-10-26</a></div>
+	<div>There is a rumour about a competitive price, 200€, just as Google Nexus 7.  Everything I have heard has been that the Windows tablet, nowadays Surface, targeted the higher end of the market with expensive to very expensive.  It might still be so but only for the Windows Surface lacking the RT suffix.  RT means slower, cheaper, ARM processor and lock-in.  We'll find out.</div>
+	<div><br/></div>
+	<div>Should I buy this one instead of Google Nexus 7?  Or both?</div>
+	<div><br/></div>
+	<div>- <a href="http://news.cnet.com/8301-10805_3-57481965-75/surface-to-arrive-with-windows-8-on-10-26-says-microsoft/">http://news.cnet.com/8301-10805_3-57481965-75/surface-to-arrive-with-windows-8-on-10-26-says-microsoft/</a></div>
+	<div>- <a href="http://www.engadget.com/2012/08/14/microsoft-surface-199/">http://www.engadget.com/2012/08/14/microsoft-surface-199/</a> &lt;- price</div>
+
+
+</en-note>
+]]></content><created>20120731T073848Z</created><updated>20120819T091740Z</updated><tag>mbb</tag><note-attributes><latitude>57.697</latitude><longitude>11.9315</longitude><altitude>0</altitude><source>mobile.android</source><source-url>http://m.cnet.com/news/surface-to-arrive-with-windows-8-on-1026-says-microsoft/57481965</source-url></note-attributes></note>
+</en-export>
