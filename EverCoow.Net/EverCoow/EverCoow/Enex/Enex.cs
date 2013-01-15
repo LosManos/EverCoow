@@ -1,12 +1,33 @@
 ﻿using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Xml;
 
-namespace EverCoow
+namespace EverCoow.Enex 
 {
-    public class Enex
+    internal class Enex : IEnex
     {
-        public IList<Article> Read(string pathFilename)
+        private readonly XmlDocument _doc;
+
+        internal Enex()
+        {
+            _doc = new XmlDocument();
+        }
+
+        void IEnex.Load(string pathFilename)
+        {
+            _doc.Load(pathFilename);
+        } 
+
+        internal IEnumerable<Note> GetNotes()
+        {
+            return (
+                        _doc.SelectNodes("note")
+                        .Cast<XmlNode>()
+                        .Select(Note.Create)).ToList();
+        } 
+
+        internal IList<Article> Read(string pathFilename)
         {
             var doc = new XmlDocument();
             doc.Load(pathFilename );
@@ -32,7 +53,7 @@ namespace EverCoow
         /// <param name="path"></param>
         /// <param name="filename"></param>
         /// <returns></returns>
-        public IList<Article> ReadFile(string path, string filename)
+        internal IList<Article> ReadFile(string path, string filename)
         {
             return Read(Path.Combine(path, filename));
         }

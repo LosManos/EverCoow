@@ -26,12 +26,12 @@ namespace EverCoow
             get
             {
                 return new Do.Placeholders()
-            {
-                Leader = "{{Leader}}",
-                ChapterHeader = "{{ChapterHeader}}",
-                ArticleHeader = "{{ArticleHeader}}",
-                ArticleBody = "{{ArticleBody}}"
-            };
+                {
+                    Leader = "{{Leader}}",
+                    ChapterHeader = "{{ChapterHeader}}",
+                    ArticleHeader = "{{ArticleHeader}}",
+                    ArticleBody = "{{ArticleBody}}"
+                };
             }
         }
 
@@ -42,8 +42,7 @@ namespace EverCoow
         /// <param name="templatePath">Path to the template</param>
         /// <param name="templateFilename">Name of the template file.</param>
         /// <param name="enexLeaderPath"></param>
-        /// <param name="enexLeaderFilename"></param>
-        /// <param name="enexChapterPath">Path to the .enex chapter files.</param>
+        /// <param name="enexLeaderNotebookName"></param>
         /// <param name="enexChapterList">List of chapter names and their respective file names.</param>
         /// <param name="placeholders">The placeholders we use for replacing text.  Typically Do.DefaultPlaceholders.</param>
         /// <param name="markdownConverter">Converter for enexmarkdown to emailhtml.</param>
@@ -51,14 +50,18 @@ namespace EverCoow
         /// <param name="outFilename">The name of the resulting output file.</param>
         public void Convert(
             string templatePath, string templateFilename,
-            string enexLeaderPath, string enexLeaderFilename, 
-            string enexChapterPath, List<EnexChapter> enexChapterList, 
-            Placeholders placeholders, 
-            IEverCoowMarkDownConverter markdownConverter, 
+            string filePath, string fileFilename, 
+            string enexLeaderPath, string enexLeaderNotebookName,
+            List<EnexChapter> enexChapterList,
+            Placeholders placeholders,
+            IEverCoowMarkDownConverter markdownConverter,
             string outPath, string outFilename)
         {
             var emailTemplate = ReadTextOfFile(templatePath, templateFilename);
-            var template = Split(emailTemplate, placeholders);
+            TemplateStruct template = Split(emailTemplate, placeholders);
+
+            var everCoowDocument = new EverCoowDocument(new Enex.Enex());
+            everCoowDocument.Load(PathFilename.Create(filePath, fileFilename).Full);
 
             var sb = new StringBuilder();
 
@@ -74,10 +77,9 @@ namespace EverCoow
             }
             else
             {
-                var leaderEnex = new Enex();
                 var articles = leaderEnex.ReadFile(enexLeaderPath, enexLeaderFilename);
                 var leaderArticle = articles.Single();
-                sb.Append(markdownConverter.Convert( leaderArticle.CdataContent.InnerXml));
+                sb.Append(markdownConverter.Convert(leaderArticle.CdataContent.InnerXml));
             }
             sb.Append(template.Leader.After);
 
@@ -135,8 +137,8 @@ namespace EverCoow
             var ret = new TemplateStruct()
             {
                 Before = beforeLeader,
-                Leader = TemplateStruct.PlaceholderStruct.Create( leader, placeholders.Leader), 
-                ChapterHeader = TemplateStruct.PlaceholderStruct.Create( chapterHeader, placeholders.ChapterHeader), 
+                Leader = TemplateStruct.PlaceholderStruct.Create(leader, placeholders.Leader),
+                ChapterHeader = TemplateStruct.PlaceholderStruct.Create(chapterHeader, placeholders.ChapterHeader),
                 Article = TemplateStruct.PlaceholderStruct2.Create(article, placeholders.ArticleHeader, placeholders.ArticleBody),
                 After = footer
             };
@@ -219,7 +221,7 @@ namespace EverCoow
         /// <param name="sb"></param>
         private void WriteFile(string path, string filename, StringBuilder sb)
         {
-            File.WriteAllText( Path.Combine( path, filename), sb.ToString() );
+            File.WriteAllText(Path.Combine(path, filename), sb.ToString());
         }
 
     }

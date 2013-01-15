@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export2.dtd">
+<en-export export-date="20130115T132934Z" application="Evernote" version="Evernote Mac 5.0.0 (400524)">
+<note><title>Another article</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+In the chapter Projects and Leadership.
+</en-note>
+]]></content><created>20130115T132439Z</created><updated>20130115T132503Z</updated><tag>Ccc_template</tag><note-attributes><latitude>57.700892442</latitude><longitude>11.959295829</longitude><altitude>0</altitude><author>LosManos</author></note-attributes></note>
+<note><title>Template article header again</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+Template article
+<div>With two paragraphs.</div>
+<div>- http://selfelected.com &lt;- and a comment</div>
+<div><br/></div>
+<div>Tipthanks myself.</div>
+</en-note>
+]]></content><created>20130101T203742Z</created><updated>20130101T211330Z</updated><tag>Ccc_template</tag><note-attributes><latitude>57.700892442</latitude><longitude>11.959295829</longitude><altitude>0</altitude><author>LosManos</author></note-attributes></note>
+<note><title>Template article header</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+Template article without a URL
+</en-note>
+]]></content><created>20130101T203636Z</created><updated>20130101T203749Z</updated><tag>Ccc_template</tag><note-attributes><latitude>57.700892442</latitude><longitude>11.959295829</longitude><altitude>0</altitude><author>LosManos</author></note-attributes></note>
+<note><title>Template leader</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+This is a template leader.
+<div>With 2 paragraphs, an inline <a href="http://www.selfelected.com">URL</a>.</div>
+<div><br/></div>
+<div>- http://selfelected.com &lt;- and a trailing URL</div>
+</en-note>
+]]></content><created>20121212T151559Z</created><updated>20130115T132333Z</updated><tag>Ccc_template</tag><note-attributes><latitude>57.700892442</latitude><longitude>11.959295829</longitude><altitude>0</altitude><author>LosManos</author></note-attributes></note>
+</en-export>

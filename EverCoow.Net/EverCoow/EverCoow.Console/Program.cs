@@ -18,17 +18,21 @@ namespace EverCoow.Console
         static void Main(string[] args)
         {
             System.Console.WriteLine("Converting...");
-            var chapterList = new List<EverCoow.EnexChapter>() {
-                EverCoow.EnexChapter.Create( "Code and development", "mb-1-CodeAndDevelopment.enex"), 
-                EverCoow.EnexChapter.Create( "Projects and leadersip", "mb-2-ProjectsAndLeadership.enex"), 
-                //EverCoow.EnexChapter.Create("Privacy, security and rignts", "mb-4-PrivacySecurityAndRights.enex" )
+            var chapters = new List<EnexChapter>() {
+                EverCoow.EnexChapter.Create( "Code and development", "mb-1-CodeAndDevelopment"), 
+                EverCoow.EnexChapter.Create( "Projects and leadership", "mb-2-ProjectsAndLeadership"), 
+                EverCoow.EnexChapter.Create( "Products and releases", "mb-3-ProductsAndReleases"), 
+                EverCoow.EnexChapter.Create("Privacy, security and rignts", "mb-4-PrivacySecurityAndRights" ),
+                EverCoow.EnexChapter.Create( "Miscellaneous", "mb-5-Miscellaneous")
             };
-            const string path = @"\\psf\Home\Documents\Development\Projects\EverCoow\EverCoow.Net\EverCoow\Data";
-            const string enexLeaderFilename = "ExampleLeader.enex";
-            var outPathFile = Path.Combine(path, "letter.html");
+            const string dataPath = @"\\psf\Home\Documents\Development\Projects\EverCoow\EverCoow.Net\EverCoow\Data";
+            const string enexLeaderNotebookName = "Ledaridéer";
 
             var evercoowDo = new EverCoow.Do();
-            evercoowDo.Convert(TemplatePath, "template.html", path, enexLeaderFilename, path, chapterList, Placeholders, new EverCoowMarkDownConverter(), path, "email.html");
+            evercoowDo.Convert(
+                TemplatePath, "template.html", 
+                dataPath, enexLeaderNotebookName, chapters, Placeholders, new EverCoowMarkDownConverter(), 
+                dataPath, "email.html");
 
             System.Console.WriteLine("Conversion finished.");
             System.Console.Write("Press any key...");
